@@ -17,5 +17,9 @@ cd Project
 sqlite3 MyDb
 MyDb> Create Table Used()
 
+## Crontab fonctionnality to get new Eth value each minute
+-$ crontab -e 
+-$ * * * * * ./project/api.sh
+
 # EthPrice_ApiScrap Part 2
 I then create a frontend website that queries my values on my Database in order to host history of previous abnormal fluctuations detected. (Still in progress, maybe for long ... RIP)
